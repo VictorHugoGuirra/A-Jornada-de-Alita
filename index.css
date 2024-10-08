@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FD767E;
+    font-size: 20px;
+    color: #ffff;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    background-image: url(img/terrastyle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#game-container {
+    max-width: 1100px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid #4AA79C;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #248179d7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p{
+   padding: 20px; 
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FD6158;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4AA79C;
+}
